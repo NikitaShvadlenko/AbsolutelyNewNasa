@@ -21,9 +21,6 @@ class ViewController: UIViewController {
         tabBarItem.image = UIImage(systemName: "list.bullet")
         title = "List"
         view.backgroundColor = .red
-        
-
-        
     }
 
 
