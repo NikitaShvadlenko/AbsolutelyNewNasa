@@ -9,10 +9,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    private lazy var tableView: UITableView = {
+           let tableView = UITableView()
+           tableView.backgroundColor = .blue
+           tableView.rowHeight = UITableView.automaticDimension
+           return tableView
+       }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        //Тут я типа написал всякую основу
+        tabBarItem.image = UIImage(systemName: "list.bullet")
+        title = "List"
+        view.backgroundColor = .red
+        
+
         
     }
 
