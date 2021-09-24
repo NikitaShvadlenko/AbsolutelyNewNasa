@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         //Тут я типа написал всякую основу
         
+        
+        ////Сейчас я попробую написать это, но вернуться к первой - потому что это строка не просто бесполезна, но и контрпродуктивна.
     }
 
 
