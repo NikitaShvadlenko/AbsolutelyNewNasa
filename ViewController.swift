@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         //Тут я типа написал всякую основу
         
+        
+        
+        //Эта ветка выглядит круче, сейчас она будет очень длинной
     }
 
 
