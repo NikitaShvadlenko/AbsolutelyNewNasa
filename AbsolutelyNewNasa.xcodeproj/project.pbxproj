@@ -13,6 +13,8 @@
 		9AD727A41C07AF7AD4E883AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77659C9D1619FAAD62FF15F6 /* Assets.xcassets */; };
 		A1D06F183FAC55E13C7F6F2D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F2EDB1DB2442858302A3ACEE /* README.md */; };
 		B483ECE026FFCBDE0054204F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B483ECDF26FFCBDE0054204F /* SnapKit */; };
+		B483ECE226FFD5070054204F /* ApodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B483ECE126FFD5070054204F /* ApodModel.swift */; };
+		B483ECE426FFD67D0054204F /* NasaImageRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B483ECE326FFD67D0054204F /* NasaImageRoute.swift */; };
 		BC6A9D6F522628B34724BD7D /* project.yml in Resources */ = {isa = PBXBuildFile; fileRef = 1036105EAD1FFA05554D6B35 /* project.yml */; };
 		C804DE34FB1C07458636935D /* Tasks.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 91CAFA8E43D81CE53469075C /* Tasks.rtf */; };
 		D87AB212EEC53A0C30277398 /* README.sample in Resources */ = {isa = PBXBuildFile; fileRef = 4C90868C73F9AF7285D35AF8 /* README.sample */; };
@@ -125,6 +127,8 @@
 		B0E622EC2BDEE524F9ADB408 /* NewBranchThefirst */ = {isa = PBXFileReference; lastKnownFileType = text; path = NewBranchThefirst; sourceTree = "<group>"; };
 		B14D516C2FB4A54163A88DB2 /* 176086c2f4233d577b76a0bfe7b89cc1c56f4f */ = {isa = PBXFileReference; lastKnownFileType = file; path = 176086c2f4233d577b76a0bfe7b89cc1c56f4f; sourceTree = "<group>"; };
 		B14E424D479A72889924D608 /* 45a548c8a79c41344f5bd62cb232f6bbefe13f */ = {isa = PBXFileReference; lastKnownFileType = file; path = 45a548c8a79c41344f5bd62cb232f6bbefe13f; sourceTree = "<group>"; };
+		B483ECE126FFD5070054204F /* ApodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodModel.swift; sourceTree = SOURCE_ROOT; };
+		B483ECE326FFD67D0054204F /* NasaImageRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaImageRoute.swift; sourceTree = SOURCE_ROOT; };
 		B5AAED4D6DB073CEE17CE4FF /* f0db2b5ba98fbcc27026d643db4d97650b1440 */ = {isa = PBXFileReference; lastKnownFileType = file; path = f0db2b5ba98fbcc27026d643db4d97650b1440; sourceTree = "<group>"; };
 		BE9FCAA2EB6D955E30D1653B /* f9223aa97c867655eef221b3c73718a574d4fc */ = {isa = PBXFileReference; lastKnownFileType = text; path = f9223aa97c867655eef221b3c73718a574d4fc; sourceTree = "<group>"; };
 		C19063194F6F4D0B1BE33276 /* 0f0bb13833dfa3ce0fe759b7a682d7f383ade4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 0f0bb13833dfa3ce0fe759b7a682d7f383ade4; sourceTree = "<group>"; };
@@ -376,11 +380,13 @@
 				31B155595D03FB6551CCDF6E /* LaunchScreen.storyboard */,
 				4F498E0675D0FBAB2D898AB0 /* OpenNasaRoute.swift */,
 				90D08C618B0663A326A475B5 /* PictureCell.swift */,
+				B483ECE326FFD67D0054204F /* NasaImageRoute.swift */,
 				1036105EAD1FFA05554D6B35 /* project.yml */,
 				F2EDB1DB2442858302A3ACEE /* README.md */,
 				EC89EDC14CA47FD00B4A7DC7 /* SceneDelegate.swift */,
 				91CAFA8E43D81CE53469075C /* Tasks.rtf */,
 				207FE48DB1502E187AE0AC9E /* ViewController.swift */,
+				B483ECE126FFD5070054204F /* ApodModel.swift */,
 			);
 			name = AbsolutelyNewNasa;
 			path = .;
@@ -1111,6 +1117,8 @@
 				ED1E28A2E350E8E2A62844E6 /* AppDelegate.swift in Sources */,
 				7AF3036C2B6FECA5BAE6F0FE /* OpenNasaRoute.swift in Sources */,
 				56E410F99807E2B811C66C7E /* PictureCell.swift in Sources */,
+				B483ECE426FFD67D0054204F /* NasaImageRoute.swift in Sources */,
+				B483ECE226FFD5070054204F /* ApodModel.swift in Sources */,
 				E7B781F11587206ED8DF8326 /* SceneDelegate.swift in Sources */,
 				DF09959175DD4E52634C99B2 /* ViewController.swift in Sources */,
 			);
